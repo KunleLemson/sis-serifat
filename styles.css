@@ -40,8 +40,8 @@ body {
 }
 
 img {
-  width: 100%;
-  /* display: block; */
+  width: 80%;
+   display: block; 
   height: 350px;
   margin: 0 auto;
   padding: 10px 10px;
@@ -73,23 +73,21 @@ img {
 .caption {
   color: #fff;
   font-size: 15px;
-  padding: 15px 12px;
+  padding: 15px 50px;
   position: absolute;
   bottom: 10px;
   width: 100%;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   text-align: center;
 }
 
 .numbertext {
   color: #fff;
-  background-color: #bbb;
+  background-color: rgba(187,187,187,.05);
   font-size: 12px;
   padding: 10px 12px;
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 40px;
 }
 
 .dot {
@@ -137,7 +135,7 @@ img {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {
+  .caption {
     font-size: 11px;
   }
 }
@@ -156,8 +154,12 @@ img {
   }
 
   img {
-    width: 250px;
+    width: 350px;
     height: 400px;
+  }
+  
+  .numbertext {
+    left: 20px;
   }
 
   .wrap-img img {
